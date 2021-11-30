@@ -1,0 +1,140 @@
+---
+title: "new_ds"
+author: "Qilu Zhou"
+date: "11/4/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+## Flaviridae
+
+### joint sequence
+raxml-ng --msa flaviviridae_w_outgroup_wo_flavivirus_aligned.fasta --model GTR+G --prefix flaviviridae_tree --threads 2 --seed 2
+
+```{r}
+rm(list=ls())
+library(ape)
+library(phylotools)
+library(phytools)
+library(phangorn)
+library(geiger)
+data=read.fasta("./flaviviridae/flaviviridae_w_outgroup_wo_flavivirus_aligned.fasta")
+
+# Unroot tree
+tree.1=read.tree("./flaviviridae/flaviviridae_tree.raxml.bestTree")
+plot(tree.1)
+tree.1_unroot=unroot(tree.1)
+plot(tree.1_unroot, type="unrooted",edge.width=2, no.margin=TRUE)
+
+# Root at outgroup
+tree.2=root(tree.1_unroot,outgroup="M96751.1.1-388_Bovine_viral_diarrhea_virus_1-SD1_polyprotein_gene_complete_cds")
+index=which(tree.2[["tip.label"]]=="M96751.1.1-388_Bovine_viral_diarrhea_virus_1-SD1_polyprotein_gene_complete_cds")
+
+# Romove outgroup
+name_without_outgroup=tree.2[["tip.label"]][-(index)]
+tree.3=keep.tip(tree.2,name_without_outgroup)
+plot(tree.3)
+#write.tree(tree.3,"./flaviviridae/flaviviridae_wo_outgroup_wo_flavivirus_w_root.tree")
+
+# Remove the name in the ancestral sequences
+index2=which(data$seq.name=="M96751.1.1-388_Bovine_viral_diarrhea_virus_1-SD1_polyprotein_gene_complete_cds")
+seq_deletion=data[-(index2),]
+#dat2fasta(seq_deletion,"./flaviviridae/flaviviridae_wo_outgroup_wo_flavivirus_aligned.fasta")
+```
+
+### estimate ancestral sequence
+
+raxml-ng --ancestral --msa flaviviridae_wo_outgroup_wo_flavivirus_aligned.fasta --tree flaviviridae_wo_outgroup_wo_flavivirus_w_root.tree --model GTR+G --prefix flaviviridae_ancestral
+
+### plot the ancestral tree with node labels
+```{r}
+tree=read.tree("./raxml_result/ancestor/flaviviridae_ancestral.raxml.ancestralTree")
+plot(tree, show.node.label = T)
+```
+
+## Picornaviridae
+
+### joint sequence
+
+raxml-ng --msa picornaviridae_w_outgroup_aligned.fasta --model GTR+G --prefix picornaviridae_tree --threads 2 --seed 2
+
+```{r}
+data=read.fasta("./picornaviridae/picornaviridae_w_outgroup_aligned.fasta")
+
+# Unroot tree
+tree.1=read.tree("./picornaviridae/picornaviridae_tree.raxml.bestTree")
+plot(tree.1)
+# outgroup:"NC_039209.1-1-921_Equine_rhinitis_A_virus_strain_PERV-1_complete_genome"
+tree.1_unroot=unroot(tree.1)
+plot(tree.1_unroot, type="unrooted",edge.width=2, no.margin=TRUE)
+
+# Root at outgroup
+tree.2=root(tree.1_unroot,outgroup="NC_039209.1-1-921_Equine_rhinitis_A_virus_strain_PERV-1_complete_genome")
+index=which(tree.2[["tip.label"]]=="NC_039209.1-1-921_Equine_rhinitis_A_virus_strain_PERV-1_complete_genome")
+
+# Remove outgroup and root the tree
+name_without_outgroup=tree.2[["tip.label"]][-(index)]
+tree.3=keep.tip(tree.2,name_without_outgroup)
+plot(tree.3)
+#write.tree(tree.3,"./picornaviridae/picornaviridae_wo_outgroup_wo_picornavirus_w_root.tree")
+
+# Remove the name in the ancestral sequences
+index2=which(data$seq.name=="NC_039209.1-1-921_Equine_rhinitis_A_virus_strain_PERV-1_complete_genome")
+seq_deletion=data[-(index2),]
+#dat2fasta(seq_deletion,"./picornaviridae/picornaviridae_wo_outgroup_wo_picornavirus_aligned.fasta")
+```
+
+### estimate ancestral sequence
+
+raxml-ng --ancestral --msa picornaviridae_wo_outgroup_wo_picornavirus_aligned.fasta --tree picornaviridae_wo_outgroup_wo_picornavirus_w_root.tree --model GTR+G --prefix picornaviridae_ancestral
+
+### plot the ancestral tree
+```{r}
+tree=read.tree("./raxml_result/ancestor/picornaviridae_ancestral.raxml.ancestralTree")
+plot(tree, show.node.label = T)
+```
+
+## Picornaviridae
+
+### joint sequence
+raxml-ng --msa potyviridae_poacevirus_w_outgroup_aligned.fasta --model GTR+G --prefix potyviridae_tree --threads 2 --seed 2
+
+```{r}
+data=read.fasta("./potyviridae/potyviridae_poacevirus_w_outgroup_aligned.fasta")
+
+# Unroot tree
+tree.1=read.tree("./potyviridae/potyviridae_tree.raxml.bestTree")
+plot(tree.1)
+tree.1_unroot=unroot(tree.1)
+plot(tree.1_unroot, type="unrooted",edge.width=2, no.margin=TRUE)
+
+# Root at outgroup
+# There are two outgroups here and I only root at one of it:"NC_018572.1-1-369_Caladenia_virus_A_complete_genome"
+tree.2=root(tree.1_unroot,outgroup="NC_018572.1-1-369_Caladenia_virus_A_complete_genome")
+index=which(tree.2[["tip.label"]]=="NC_018572.1-1-369_Caladenia_virus_A_complete_genome")
+
+# Remove outgroup
+name_without_outgroup=tree.2[["tip.label"]][-(index)]
+tree.3=keep.tip(tree.2,name_without_outgroup)
+plot(tree.3)
+#write.tree(tree.3,"./potyviridae/potyviridae_wo_outgroup_wo_potyvirus_w_root.tree")
+
+# Remove the name in the ancestral sequences
+index2=which(data$seq.name=="NC_018572.1-1-369_Caladenia_virus_A_complete_genome")
+seq_deletion=data[-(index2),]
+#dat2fasta(seq_deletion,"./potyviridae/potyviridae_wo_outgroup_wo_potyvirus_aligned.fasta")
+```
+
+### estimate ancestral sequence (less than four sequence)
+raxml-ng --ancestral --msa potyviridae_wo_outgroup_wo_potyvirus_aligned.fasta --tree potyviridae_wo_outgroup_wo_potyvirus_w_root.tree --model GTR+G --prefix potyviridae_ancestral
+
+### plot the ancestral tree
+```{r}
+tree=read.tree("./raxml_result/ancestor/potyviridae_ancestral.raxml.ancestralTree")
+plot(tree, show.node.label = T)
+```
