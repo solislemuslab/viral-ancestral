@@ -498,3 +498,34 @@ There are two ways to construct N4. The first is to use all the taxons (original
 - __picornaviridae_aligned_N4_new.fasta__
 - __picornaviridae_wo_outgroup_w_root_N4_children_only_ConfValue.txt__
 
+
+## __new_ds_new__
+
+This folder contains the construction of the ancestral sequence in New Dataset using RAxML-NG. 
+
+Within `trees` folder: it contains the trees of complete genome and ancestors
+
+- flaviviridae_wo_outgroup_wo_flavivirus_w_root.tree
+- picornaviridae_wo_outgroup_wo_picornavirus_w_root.tree
+- potyviridae_wo_outgroup_wo_potyvirus_w_root.tree
+- flaviviridae_ancestral.raxml.ancestralTree
+- picornaviridae_ancestral.raxml.ancestralTree
+- potyviridae_ancestral.raxml.ancestralTree
+
+Within `joint_sequence` folder: it contains the sequences of complete genome
+
+- flaviviridae_wo_outgroup_wo_flavivirus_aligned.fasta
+- picornaviridae_wo_outgroup_wo_picornavirus_aligned.fasta
+- potyviridae_wo_outgroup_wo_potyvirus_aligned.fasta
+
+Within `ancestral_sequence` folder: it contains the ancestral sequences of complete genome
+
+- flaviviridae_ancestral.raxml.ancestralStates
+- picornaviridae_ancestral.raxml.ancestralStates
+- potyviridae_ancestral.raxml.ancestralStates
+
+Within `conf_value` folder: it contains the probability of each nucleotide in each ancestral sequence
+
+- flaviviridae_ancestral.raxml.ancestralProbs
+- picornaviridae_ancestral.raxml.ancestralProbs
+- potyviridae_ancestral.raxml.ancestralProbs
