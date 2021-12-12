@@ -540,5 +540,3 @@ Within `conf_value` folder: it contains the probability of each nucleotide in ea
 - dicistrovirus_I_ancestral.raxml.ancestralProbs
 - dicistrovirus_II_ancestral.raxml.ancestralProbs
 
-Within `sequence_comparison` folder: it contains the comparison between ancestral sequences in new_ds_new folder and in New_Dataset folder
-
