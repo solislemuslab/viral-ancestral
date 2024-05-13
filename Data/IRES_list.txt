@@ -1,0 +1,131 @@
+>NC_036588.1 Passerivirus sp. strain waxbill/DB01/HUN/2014, complete genome    IRES0
+>NC_028365.1 Hedgehog hepatovirus Igel8Erieur2014 polyprotein gene, complete cds    IRES3
+>NC_028364.1 Shrew hepatovirus KS121232Sorara2012 polyprotein gene, complete cds    IRES3
+>NC_028363.1 Rodent hepatovirus RMU101637Micarv2010 polyprotein gene, complete cds    IRES3
+>NC_004421.1 Aichivirus B genomic RNA, complete genome, strain:U-1    IRES5
+>NC_035779.1 Falcon picornavirus, complete genome    IRES0
+>NC_034453.1 Ferret parechovirus isolate MpPeV1 polyprotein gene, complete cds    IRES2
+>NC_035198.1 Aimelvirus 2 strain gpai002, complete genome    IRES0
+>NC_034381.1 Miniopterus schreibersii picornavirus 1, complete genome    IRES0
+>NC_035110.1 Fur seal picorna-like virus isolate KGI-Bel-22, complete genome    IRES0
+>NC_034971.1 Canine kobuvirus isolate SMCD-59, complete genome    IRES5
+>NC_034617.1 Harrier picornavirus 1 strain harrier/MR-01/HUN/2014, complete genome    IRES2
+>NC_026470.1 African bat icavirus A isolate PREDICT-06105, complete genome    IRES0
+>NC_034385.1 Human cosavirus F strain PK5006 polyprotein gene, complete cds    IRES2
+>NC_034267.1 Enterovirus goat/JL14, complete genome    IRES1
+>NC_030454.1 Human enterovirus strain V13-0285, partial genome    IRES1
+>NC_034245.1 Bovine rhinovirus 1 strain SD-1, complete genome    IRES1
+>NC_034206.1 Bakunsa virus, complete genome    IRES4
+>NC_033820.1 Bat sapelovirus clone Bat/CAM/Sap-P24/2013 polyprotein gene, complete cds    IRES4
+>NC_033819.1 Bat crohivirus clone Bat/CAM/CroV-P25/2013 polyprotein gene, complete cds    IRES0
+>NC_033818.1 Bat kunsagivirus clone Bat/CAM/KuV-P2/2013 polyprotein gene, complete cds    IRES4
+>NC_033793.1 Goose megrivirus isolate HN56, complete genome    IRES4
+>NC_033695.1 Enterovirus AN12 genomic RNA, complete genome, strain: AN12    IRES1
+>NC_002058.3 Poliovirus, complete genome    IRES1
+>NC_031105.1 Rosavirus B strain RNCW0602091R polyprotein gene, complete cds    IRES2
+>NC_031106.1 Rosavirus C strain RATLC11A polyprotein gene, complete cds    IRES2
+>NC_030843.1 Washington bat picornavirus polyprotein gene, complete cds    IRES0
+>NC_029905.1 Enterovirus SEV-gx, complete genome    IRES1
+>NC_029854.1 Yak enterovirus strain SWUN-AB001, complete genome    IRES1
+>NC_004441.1 Porcine enterovirus 9 strain UKG/410/73 polyprotein gene, complete cds    IRES1
+>NC_023988.1 Tortoise Rafivirus A isolate UF4, complete genome    IRES0
+>NC_022332.1 Eel picornavirus 1 strain F15/05, complete genome    IRES0
+>NC_027919.1 Kobuvirus cattle/Kagoshima-1-22-KoV/2014/JPN genomic RNA, nearly complete genome, strain: Kagoshima-1-22-KoV/2014/JPN    IRES0
+>NC_027918.1 Kobuvirus cattle/Kagoshima-2-24-KoV/2015/JPN genomic RNA, complete genome, strain: Kagoshima-2-24-KoV/2015/JPN    IRES0
+>NC_028981.1 Tupaia hepatovirus A isolate TN1, complete genome    IRES3
+>NC_028970.1 Avisivirus Pf-CHK1/AsV, complete genome    IRES2
+>NC_028964.1 Gallivirus Pf-CHK1/GV, complete genome    IRES2
+>NC_028366.1 Bat hepatovirus isolate M32Eidhel2010 polyprotein gene, complete cds    IRES3
+>NC_028479.1 Rabbit picornavirus strain Rabbit01/2013/HUN, complete genome    IRES0
+>NC_028380.1 Chicken sicinivirus JSY, complete genome    IRES2
+>NC_001366.1 Theilovirus, complete genome    IRES2
+>NC_026314.1 Rabovirus A isolate Berlin/Jan2011/0572, complete genome    IRES0
+>NC_009448.2 Saffold virus, complete genome    IRES2
+>NC_010810.1 Human TMEV-like cardiovirus, complete genome    IRES2
+>NC_027818.1 Phopivirus strain NewEngland_USA/2011, complete genome    IRES3
+>NC_025114.1 Salivirus FHB, complete genome    IRES5
+>NC_025474.1 Crohivirus gene for polyprotein, complete cds, strain: ZM54    IRES0
+>NC_027214.1 Ampivirus A1 strain NEWT/2013/HUN, complete genome    IRES0
+>NC_027054.1 Porcine kobuvirus isolate JS-02a-CHN/2014/China, complete genome    IRES4
+>NC_023984.1 Human cosavirus isolate Cosavirus_Amsterdam_1994, complete genome    IRES2
+>NC_012957.1 Salivirus NG-J1, complete genome    IRES5
+>NC_026921.1 Falcovirus A1 strain kestrel/VOVE0622/2013/HUN, complete genome    IRES1
+>NC_026316.1 Lesavirus 2 isolate Nai108015/2012, complete genome    IRES0
+>NC_026315.1 Lesavirus 1 isolate Mis101308/2012, complete genome    IRES0
+>NC_012802.1 Human cosavirus D1, complete genome    IRES2
+>NC_012801.1 Human cosavirus B1, complete genome    IRES2
+>NC_012798.1 Human cosavirus E1, complete genome    IRES2
+>NC_003976.2 Ljungan virus, complete genome    IRES2
+>NC_008714.1 Possum enterovirus W1, complete genome    IRES1
+>NC_003988.1 Simian enterovirus A, complete genome    IRES1
+>NC_003990.1 Avian encephalomyelitis virus, complete genome    IRES4
+>NC_001897.1 Human parechovirus, genome    IRES2
+>NC_001430.1 Human enterovirus D, complete genome    IRES1
+>NC_026249.1 Bovine picornavirus isolate TCH6 polyprotein gene, complete cds    IRES0
+>NC_025961.1 Cosavirus JMY-2014 isolate Cosa-CHN, complete genome    IRES2
+>NC_025890.1 Tortoise picornavirus strain 14-04, complete genome    IRES0
+>NC_025432.1 Chicken orivirus 1 strain chicken/Pf-CHK1/2013/HUN, complete genome    IRES0
+>NC_025675.1 Norway rat hunnivirus isolate NrHuV/NYC-E21 polyprotein gene, complete cds    IRES2
+>NC_023987.1 Mosavirus A2 strain SZAL6-MoV/2011/HUN, complete genome    IRES2
+>NC_023985.1 Duck picornavirus GL/12, complete genome    IRES4
+>NC_023861.1 Sicinivirus 1 strain UCC001, complete genome    IRES2
+>NC_023422.1 Caprine kobuvirus isolate 12Q108, complete genome    IRES4
+>NC_024770.1 Chicken gallivirus 1 isolate 518C, complete genome    IRES2
+>NC_024769.1 Chicken picornavirus 5 isolate 27C, complete genome    IRES4
+>NC_024768.1 Chicken picornavirus 4 isolate 5C, complete genome    IRES0
+>NC_024767.1 Chicken picornavirus 3 isolate 45C, complete genome    IRES2
+>NC_024766.1 Chicken picornavirus 2 isolate 44C, complete genome    IRES2
+>NC_024765.1 Chicken picornavirus 1 isolate 55C, complete genome    IRES0
+>NC_001859.1 Bovine enterovirus, complete genome    IRES1
+>NC_014411.1 Turdivirus 1, complete genome    IRES0
+>NC_014412.1 Turdivirus 2, complete genome    IRES0
+>NC_014413.1 Turdivirus 3, complete genome    IRES0
+>NC_024120.1 Duck megrivirus strain LY, complete genome    IRES4
+>NC_022802.1 Feline sakobuvirus A isolate FFUP1, complete genome    IRES4
+>NC_024073.1 Enterovirus sp. isolate CPML_8109/08, complete genome    IRES1
+>NC_024070.1 Rosavirus 2 strain GA7403, complete genome    IRES2
+>NC_023857.1 Chicken megrivirus strain chicken/CHK-IV-CHV/2013/HUN, complete genome    IRES4
+>NC_021220.1 Enterovirus F strain BEV-261 polyprotein gene, complete cds    IRES1
+>NC_013695.1 Enterovirus J strain N203, complete genome    IRES1
+>NC_010415.1 Enterovirus J strain 1631, complete genome    IRES1
+>NC_009996.1 Human rhinovirus C, complete genome    IRES1
+>NC_001617.1 Human rhinovirus 89, complete genome    IRES1
+>NC_001612.1 Human enterovirus A, complete genome    IRES1
+>NC_001490.1 Human rhinovirus 14, complete genome    IRES1
+>NC_001472.1 Human enterovirus B, complete genome    IRES1
+>NC_023437.1 Fathead minnow picornavirus strain 09-283, complete genome    IRES4
+>NC_018506.1 Bluegill picornavirus isolate 04-032, complete genome    IRES4
+>NC_023162.1 Carp picornavirus 1 isolate F37/06, complete genome    IRES4
+>NC_018668.1 Bovine hungarovirus 1 strain BHUV1/2008/HUN, complete genome    IRES2
+>NC_021482.1 Sebokele virus 1 ORF1 gene for polyprotein, genomic RNA, strain 1    IRES2
+>NC_021178.1 Canine picodicistrovirus strain 209, complete genome    IRES2
+>NC_008250.2 Duck hepatitis A virus 1 strain R85952, complete genome    IRES4
+>NC_003983.1 Equine rhinitis B virus 1, complete genome    IRES2
+>NC_012986.1 Salivirus A isolate 02394-01, complete genome    IRES5
+>NC_021201.1 Turkey hepatitis virus 2993D polyprotein gene, complete cds    IRES0
+>NC_012800.1 Cosavirus A strain HCoSV-A1 polyprotein gene, complete cds    IRES2
+>NC_004004.1 Foot-and-mouth disease virus - type O, complete genome    IRES2
+>NC_011829.1 Porcine kobuvirus swine/S-1-HUN/2007/Hungary, complete genome    IRES4
+>NC_016403.1 Quail picornavirus QPV1/HUN/2010, complete genome    IRES0
+>NC_018400.1 Turkey gallivirus, complete genome    IRES2
+>NC_016769.1 Porcine kobuvirus SH-W-CHN/2010/China, complete genome    IRES4
+>NC_016156.1 Feline picornavirus, complete genome    IRES0
+>NC_018226.1 Swine pasivirus 1, complete genome    IRES4
+>NC_015936.1 Mouse kobuvirus M-5/USA/2010, complete genome    IRES5
+>NC_015941.1 Bat picornavirus 2, complete genome    IRES0
+>NC_015940.1 Bat picornavirus 1, complete genome    IRES0
+>NC_015934.1 Bat picornavirus 3, complete genome    IRES0
+>NC_015626.1 Pigeon picornavirus B, complete genome    IRES0
+>NC_011349.1 Seneca valley virus, complete genome    IRES4
+>NC_010354.1 Bovine rhinitis B virus, complete genome    IRES2
+>NC_009891.1 Seal picornavirus type 1, complete genome    IRES4
+>NC_006553.1 Avian sapelovirus, complete genome    IRES0
+>NC_004451.1 Simian sapelovirus 1, complete genome    IRES4
+>NC_003987.1 Porcine sapelovirus 1, complete genome    IRES4
+>NC_003985.1 Porcine teschovirus 1, complete genome    IRES4
+>NC_003982.1 Equine rhinitis A virus, complete genome    IRES2
+>NC_001918.1 Aichi virus, complete genome    IRES5
+>NC_001489.1 Hepatitis A virus, complete genome    IRES3
+>NC_001479.1 Encephalomyocarditis virus, complete genome    IRES2
+>NC_004052.1:1-207 Ophiostoma mitovirus 4, complete genome    IRES0
+>NC_004046.1:1-89 Cryphonectria parasitica mitovirus 1-NB631, complete genome    IRES0
